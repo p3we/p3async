@@ -19,7 +19,7 @@
 
 #include <functional>
 
-namespace utils
+namespace p3async
 {
 	/*!
 	 * \brief Helper structure used to intruduce make_delegate function.

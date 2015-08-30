@@ -25,7 +25,7 @@
 
 #include "delegate.hpp"
 
-namespace utils
+namespace p3async
 {
 	/* forward declarations */
 	template<typename ...Args> class Slot;

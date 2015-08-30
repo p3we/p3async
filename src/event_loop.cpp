@@ -5,7 +5,7 @@
 
 using namespace std;
 
-namespace utils {
+namespace p3 {
 
 std::shared_ptr<IdleWatcher> IdleWatcher::Create(EventLoop *pLoop, const std::function<void ()> &handler)
 {
@@ -206,7 +206,7 @@ bool InOutWatcher::change(Event event)
 
 } /* end of namespace utils */
 
-namespace utils {
+namespace p3 {
 
 std::shared_ptr<EventLoop> EventLoop::GetMainLoop()
 {
